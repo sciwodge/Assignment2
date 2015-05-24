@@ -27,4 +27,8 @@ cachemean <- function(x, ...) {
 
 
 x <- 1:10
+m <- mean(x)
+
+v <- makeVector(x)
+
 
